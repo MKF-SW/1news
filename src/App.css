@@ -1,0 +1,43 @@
+body{
+background-color: rgba(7, 107, 75,05);
+font-size: 2.7vw;
+}
+
+.button{
+border-radius: 10px;
+border:none;
+width: 5%;
+background-color: rgb(159, 52, 168);
+margin-left: 1%;
+padding: 1%;
+}
+
+.input{
+    border-radius: 10px;
+    border:none;
+    width: 20%;
+    margin-left: 35%;
+    background-color: rgb(235, 194, 132);
+    font-size: medium;
+    padding: 1%;
+
+}
+
+
+
+
+.button:hover{
+    font-size: medium;
+    background-color: rgb(135, 33, 231);
+}
+.input:hover{
+    background-color: antiquewhite;
+}
+
+/*
+
+ style={{borderRadius:"10px", textAlign:"center", marginLeft:"35%", width:"20%", backgroundColor:"lightgrey"}}
+
+style={{borderRadius:"10px", textAlign:"center", width:"5%", backgroundColor:'mediumvioletred', marginLeft:"1%"
+
+*/
