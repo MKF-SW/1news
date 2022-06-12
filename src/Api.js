@@ -15,7 +15,7 @@ const [get, setGet]= useState([]);
 
 useEffect(()=>{
   //add an key to run the project
-KEY=""
+const KEY ="";
 
 const all = async ()=>{
 const after = await axios.get(`https://newsapi.org/v2/everything?q=${exist}&sortBy=popularity&apiKey=${KEY}`)
